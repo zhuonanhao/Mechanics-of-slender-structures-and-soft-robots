@@ -66,7 +66,7 @@ EA = Y*A; % Stretching stiffness, N
 %-----------------------------------------------------------
 g = 9.8; % Gravitational acceleration, N/m^2
 
-P = 2000; % Applied force, N
+P = 20000; % Applied force, N
 d = 0.75; % Distance of the applied force to the left end, m 
 
 % Find the index of the node with applied force

@@ -222,7 +222,7 @@ figure(2)
 plot(time,middle_velocity_y,'linewidth',3)
 title('Middle node')
 xlabel('Time, t [s]')
-ylabel('Velocity, dy/dt [m]')
+ylabel('Velocity, dy/dt [m/s]')
 set(gca,'fontsize',16)
  
 %-----------------------------------------------------------

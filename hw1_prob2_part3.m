@@ -24,7 +24,7 @@ figure(1)
 plot(dt,terminal_velocity,'linewidth',3)
 title('Terminal velocity')
 xlabel('Time step size, dt [s]')
-ylabel('Velocity, dy/dt [s/m]')
+ylabel('Velocity, dy/dt [m/s]')
 set(gca,'fontsize',16)
 
 %-----------------------------------------------------------
@@ -43,7 +43,7 @@ figure(2)
 plot(N,terminal_velocity,'linewidth',3)
 title('Terminal velocity')
 xlabel('Number of nodes, N')
-ylabel('Velocity, dy/dt [s/m]')
+ylabel('Velocity, dy/dt [m/s]')
 set(gca,'fontsize',16)
 
 function terminal_velocity = implicit_N_nodes(dt,N)
