@@ -17,7 +17,7 @@ close all;
 N = 21; % Number of vertices
 ne = N-1; % Number of edges
 dt = 0.01; % Timestep size, second
-totalTime = 10; % Total time, second
+totalTime = 50; % Total time, second
 Nsteps = round(totalTime/dt); % Number of steps
 
 %-----------------------------------------------------------

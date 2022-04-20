@@ -53,7 +53,7 @@ function terminal_velocity = implicit_N_nodes(dt,N)
 %   Simulation parameters
 %-----------------------------------------------------------
 
-totalTime = 10; % Total time, second
+totalTime = 50; % Total time, second
 Nsteps = round(totalTime/dt); % Number of steps
 
 %-----------------------------------------------------------
